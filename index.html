@@ -19,10 +19,10 @@
     <!-- Page Navbar -->
     <nav class="custom-navbar" data-spy="affix" data-offset-top="20">
         <div class="container">
-            <a class="logo" href="/Portfolio">Portfolio</a>
+            <a class="logo" href="/">Portfolio</a>
             <ul class="nav">
                 <li class="item">
-                    <a class="link" href="/Portfolio">Home</a>
+                    <a class="link" href="/">Home</a>
                 </li>
                 <li class="item">
                     <a class="link" href="#about">About</a>
@@ -59,28 +59,29 @@
     <header id="home" class="header">
         <div class="overlay"></div>
         <div class="header-content container">
-            <h1 class="header-title">
-                <span class="up">Hi!</span>
-                <span class="down">I am Hammad Rashid</span>
-            </h1>
-            <p class="header-subtitle">Software Quality Assurance Engineer</p>
-
-            <a href="#portfolio">
-                <button class="btn btn-primary">Visit my Works</button>
-            </a>
+            <div class="text-center">
+                <h1 class="header-title">
+                    <span class="up">Hi&#128075;</span><br>
+                    <span class="up">I am Hammad Rashid</span>
+                </h1>
+            </div>
+            <div class="text-center mt-4">
+                <p class="header-subtitle">Software Quality Assurance Engineer</p>
+            </div>
+            <div class="text-center mt-4">
+                <a href="#portfolio">
+                    <button class="btn btn-primary btn-rectangular">Visit my Works</button>
+                </a>
+            </div>
         </div>
-    </header><!-- end of page header -->
+    </header>
+    
+    <!-- end of page header -->
 
     <!-- about section -->
     <section class="section pt-0" id="about">
-        <!-- container -->
         <div class="container text-center">
-            <!-- about wrapper -->
             <div class="about">
-                <div class="about-img-holder">
-                    <img src="assets/imgs/image.png" class="about-img"
-                        alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
-                </div>
                 <div class="about-caption">
                     <p class="section-subtitle">Who Am I ?</p>
                     <h2 class="section-title mb-3" style="text-align: left;">About Me</h2>
@@ -105,9 +106,14 @@
                         <button class="btn-rounded btn btn-outline-primary mt-4">Download CV</button>
                     </a>
                 </div>
+                <div class="about-img-holder">
+                    <img src="assets/imgs/image.png" class="about-img"
+                        alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                </div>
             </div>
         </div>
     </section>
+    
     <!-- end of about section -->
 
     <!-- service section -->
@@ -137,7 +143,8 @@
                                 alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page"
                                 class="icon">
                             <h6 class="title">Automation Testing</h6>
-                            <p class="subtitle">Automation testing services to enhance software quality.</p>
+                            <p class="subtitle">Comprehensive automation testing services to expedite testing processes
+                                and enhance software quality.</p>
                         </div>
                     </div>
                 </div>
@@ -148,7 +155,8 @@
                                 alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page"
                                 class="icon">
                             <h6 class="title">Web App Testing</h6>
-                            <p class="subtitle">Ensure the functionality, usability, and security of web solutions. </p>
+                            <p class="subtitle">Comprehensive assessment to ensure the functionality, usability, and
+                                security of your web-based solutions. </p>
                         </div>
                     </div>
                 </div>
@@ -160,7 +168,7 @@
                                 class="icon">
                             <h6 class="title">Mobile App Testing</h6>
                             <p class="subtitle">Evaluation services to ensure the functionality, usability, and
-                                performance of mobile apps.</p>
+                                performance of your mobile applications.</p>
                         </div>
                     </div>
                 </div>
@@ -175,7 +183,8 @@
                                 alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page"
                                 class="icon">
                             <h6 class="title">Functional Testing</h6>
-                            <p class="subtitle">Ensuring every functionality of the product operates as intended.
+                            <p class="subtitle">Ensuring every functionality of the product operates as intended,
+                                adhering closely to user requirements.
                             </p>
                         </div>
                     </div>
@@ -211,7 +220,7 @@
                                 alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page"
                                 class="icon">
                             <h6 class="title">Performance Testing</h6>
-                            <p class="subtitle">Responsiveness, scalability, stability of
+                            <p class="subtitle">Assessing the responsiveness, scalability, and stability of
                                 software under varying conditions.</p>
                         </div>
                     </div>
@@ -244,7 +253,7 @@
                             <img src="assets/imgs/website.svg" alt="Project 1" class="portfolio-img">
                             <h6 class="title">Husky</h6>
                             <p class="portfolio-description">Fertilizer manafacturing company aiming to enhance crop
-                                yields. </p>
+                                yield and optimize nutrients. </p>
                         </div>
                     </div>
                 </div>
@@ -638,49 +647,24 @@
     </section>
 
     <!-- Blogs -->
-    <section class="section" id="blog">
-        <div class="container">
-            <div class="section-title">
-                <h2>Latest Blogs</h2>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-md-6">
-                    <div class="blog-card">
-                        <img src="assets/imgs/ECP.png" alt="ECP Image">
-                        <div class="blog-content">
-                            <h3>Equivalence Class Partitioning</h3>
-                            <p>Equivalence Class Partitioning, more commonly known as ECP, is a Black box technique that is widely used by Software testers globally for testing any application, website, or product.</p>
-                            <a href="https://medium.com/@hammad.rashid_73904/equivalence-class-partitioning-d8d85b014544" class="btn btn-primary" style="width: 100%; border-radius: 5px;">Read More</a>
-                        </div>
-                    </div>
+    <section class="section-sm bg-primary" id="blog">
+        <div class="container text-center text-sm-left">
+            <div class="row align-items-center">
+                <div class="col-sm offset-md-1 mb-4 mb-md-0">
+                    <h2 class="title text-light">Latest Blogs</h6>
+                    <p class="m-0 text-light">Want to read more about what I write?</p>
                 </div>
-
-                <div class="col-lg-4 col-md-6">
-                    <div class="blog-card">
-                        <img src="assets/imgs/dtt.png" alt="Decision Table Testing Image">
-                        <div class="blog-content">
-                            <h3>Decision Table Testing</h3>
-                            <p>A visual representation of the conditions along with the results. Used in CS, Technology, and Development fields to derive the number of possible outcomes.</p>
-                            <a href="https://medium.com/@hammad.rashid_73904/decision-table-testing-eb18e3441378" class="btn btn-primary" style="width: 100%; border-radius: 5px;">Read More</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6">
-                    <div class="blog-card">
-                        <img src="assets/imgs/bva.png" alt="Boundary value Analysis Image">
-                        <div class="blog-content">
-                            <h3>Boundary Value Analysis</h3>
-                            <p>Technique capable of finding bugs and errors at the boundary values of the input data instead of center values. It checks for the behavior of the code on the boundary </p>
-                            <a href="https://medium.com/@hammad.rashid_73904/boundary-value-analysis-2a40f9229f09" class="btn btn-primary" style="width: 100%; border-radius: 5px;">Read More</a>
-                        </div>
-                    </div>
+                <div class="col-sm offset-sm-2 offset-md-3">
+                    <button class="btn btn-lg my-font btn-light rounded">
+                        <a class="link" href="https://medium.com/@hammad.rashid_73904">Read More</a>
+                    </button>
                 </div>
             </div>
         </div>
     </section>
-    
-<section class="section" id="contact">
+
+    <!-- Contact Section -->
+    <section class="section" id="contact">
         <div class="container text-center">
             <p class="section-subtitle">Reach out to Me</p>
             <h6 class="section-title mb-6">Contact Me</h6>
