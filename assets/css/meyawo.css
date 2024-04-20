@@ -11078,6 +11078,10 @@ h1, h2, h3, h4, h5, h6 {
   color: #695aa6;
 }
 
+.blog-title {
+  color: white;
+}
+
 .my-font {
   font-family: 'Baloo Paaji', cursive;
 }
@@ -12209,8 +12213,6 @@ pre .code {
   font-size: calc(15px + (20 - 15) * ((100vw - 300px) / (1300 - 300)));
   height: 185px;
 }
-
-
 
 .row .col-md-6 {
   padding: 0 30px; /* Adjust the padding to reduce the gap */
