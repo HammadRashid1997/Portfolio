@@ -67,3 +67,25 @@ function topFunction() {
       behavior: 'smooth'
     });
 }
+
+// Languages I know slider
+
+document.addEventListener('DOMContentLoaded', () => {
+    const track = document.querySelector('.slider-track');
+    const slides = Array.from(track.children);
+
+    // Clone slides for infinite effect
+    slides.forEach(slide => {
+        const clone = slide.cloneNode(true);
+        track.appendChild(clone);
+    });
+
+    // Reset animation to prevent jitter
+    track.addEventListener('animationiteration', () => {
+        track.style.animation = 'none';
+        setTimeout(() => {
+            track.style.animation = '';
+        }, 10);
+    });
+});
+
