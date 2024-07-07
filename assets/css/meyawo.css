@@ -12183,7 +12183,7 @@ pre .code {
 
 /* sections */
 .section {
-  padding: 70px 10px;
+  padding: 50px 10px;
 }
 
 .section .section-title {
@@ -12320,4 +12320,58 @@ pre .code {
 }
 .certification-details {
   color: #555;
+}
+
+/* Languages I know */
+.slider {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+.slider-track {
+    display: flex;
+    animation: scroll 20s linear infinite;
+}
+.slide {
+    min-width: 150px;
+    margin: 10px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.slide img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+.slide p {
+    margin: 0;
+    font-size: 1.1em;
+    color: #333;
+}
+
+.styled-text p {
+  font-size: 1.0em;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+.styled-text p strong {
+  color: #333; /* Choose a color that matches your design */
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+@keyframes scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(calc(-150px * 8)); } /* Adjust this based on the number of slides */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .slide {
+      min-width: 100px;
+  }
 }
